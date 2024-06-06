@@ -25,21 +25,21 @@ div.GreyRowBox-sc-1xo9c6v-0 {
 }
 
 div.style-module_1n_DiqmT {
-  background-color: rgba(0,0,0,0); 
-  padding: 10px;
+  background-color: rgba(0,0,0,0) !important; 
+  padding: 10px !important;
 }
 
 div.xterm-viewport {
-  border-radius: 10px;
+  border-radius: 10px !important;
   background-color: rgba(0,0,0,0.5) !important;
 }
 
 div.style-module_3TDo--Tn {
-  border-radius: 10px;
+  border-radius: 10px !important;
 }
 
 div.style-module_1n_DiqmT {
-  background-color: rgba(0, 0, 0, 0.24);
+  background-color: rgba(0, 0, 0, 0) !important;
 }
 
 div.ScheduleEditContainer___StyledDiv3-sc-1fhsmlc-7 {
