@@ -83,7 +83,7 @@ div.style-module_2XbmHEcn.group {
 }
 
 div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
-  background-color: argb(0,0,0,0);
+  background-color: argb(0,0,0,0.5);
   background-image: url("https://raw.githubusercontent.com/NoPro200/Pterodactyl_Nightcore_Theme/main/background.jpg");
 }
 
@@ -228,7 +228,7 @@ label.PermissionRow__Container-sc-1h899cn-0.icxFlO:hover {
 }
 
 div.style-module_1DtraXMW.bg-gray-700 {
-  background-color: #000000 !important;
+  background-color: rgba(0,0,0,0.5);
 }
 
 input.Input-sc-19rce1w-0.jqTCDz {
