@@ -9,16 +9,16 @@ clear
 
 installTheme(){
     cd /var/www/
-    tar -cvf NightcoreThemebackup.tar.gz pterodactyl
+    tar -cvf Pterodactyl_Nightcore_Themebackup.tar.gz pterodactyl
     echo "Installing theme..."
     cd /var/www/pterodactyl
-    rm -r NightcoreTheme
+    rm -r Pterodactyl_Nightcore_Theme
     git clone https://github.com/NoPro200/Pterodactyl_Nightcore_Theme.git
-    cd NightcoreTheme
-    rm /var/www/pterodactyl/resources/scripts/NightcoreTheme.css
+    cd Pterodactyl_Nightcore_Theme
+    rm /var/www/pterodactyl/resources/scripts/Pterodactyl_Nightcore_Theme.css
     rm /var/www/pterodactyl/resources/scripts/index.tsx
     mv index.tsx /var/www/pterodactyl/resources/scripts/index.tsx
-    mv NightcoreTheme.css /var/www/pterodactyl/resources/scripts/NightcoreTheme.css
+    mv Pterodactyl_Nightcore_Theme.css /var/www/pterodactyl/resources/scripts/Pterodactyl_Nightcore_Theme.css
     cd /var/www/pterodactyl
 
     curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
@@ -53,8 +53,8 @@ repair(){
 restoreBackUp(){
     echo "Restoring backup..."
     cd /var/www/
-    tar -xvf NightcoreThemebackup.tar.gz
-    rm NightcoreThemebackup.tar.gz
+    tar -xvf Pterodactyl_Nightcore_Themebackup.tar.gz
+    rm Pterodactyl_Nightcore_Themebackup.tar.gz
 
     cd /var/www/pterodactyl
     yarn build:production
