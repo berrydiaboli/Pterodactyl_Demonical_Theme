@@ -26,11 +26,15 @@ div.GreyRowBox-sc-1xo9c6v-0 {
 
 div.style-module_1n_DiqmT {
   background-color: rgba(0,0,0,0) !important; 
-  padding: 2px !important;
+  padding: 5px !important;
+}
+
+div.Input-sc-19rce1w-0 {
+  background-color: rgba(0,0,0,0.8) !important; 
 }
 
 div.xterm-viewport {
-  border-radius: 10px !important;
+  border-radius: 5px !important;
   background-color: rgba(0,0,0,0.5) !important;
 }
 
