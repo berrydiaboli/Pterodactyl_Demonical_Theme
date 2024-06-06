@@ -30,8 +30,8 @@ div.style-module_1n_DiqmT {
 }
 
 div.style-module_4LBM1DKx {
-  background-color: #ad0c0c; 
-  border: 2px solid #ad0c0c;
+  background-color: #ad0c0c !important; 
+  border: 2px solid #ad0c0c !important;
 }
 
 div.xterm-viewport {
@@ -88,7 +88,7 @@ div.style-module_2XbmHEcn.group {
 }
 
 div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
-  background-color: argb(0,0,0,0.5);
+  background-color: argb(0,0,0,0.8);
   background-image: url("https://raw.githubusercontent.com/NoPro200/Pterodactyl_Nightcore_Theme/main/background.jpg");
 }
 
