@@ -136,50 +136,48 @@ p.input-help {
   color: red !important;
 }
 
-input.Input-sc-19rce1w-0.jqTCDz.cursor-pointer {
-  background-color: rgba(100,0,0,0.6) !important;
-  border: 2px solid #6b0000 !important;
-}
 
-input.Input-sc-19rce1w-0.floJYL.cursor-pointer {
-  background-color: rgba(100,0,0,0.6) !important;
-  border: 2px solid #6b0000 !important;
-}
 
-input.Input-sc-19rce1w-0.fFYzlR.cursor-pointer {
-  background-color: rgba(100,0,0,0.5);
-  border: 2px solid #6b0000 !important;
-}
 
-input.Input-sc-19rce1w-0.jqTCDz:hover {
-  background-color: rgba(100,0,0,0.6) !important;
-  border: 2px solid #6b0000 !important;
-}
 
-input.Input-sc-19rce1w-0.floJYL:hover {
-  background-color: rgba(100,0,0,0.6) !important;
-  border: 2px solid #6b0000 !important;
-}
 
-input.Input-sc-19rce1w-0.fFYzlR:hover {
-  background-color: rgba(100,0,0,0.5);
-  border: 2px solid #6b0000 !important;
-}
-
+/* Normalzustand */
+input.Input-sc-19rce1w-0.jqTCDz,
+input.Input-sc-19rce1w-0.floJYL,
 input.Input-sc-19rce1w-0.fFYzlR {
-  background-color: rgba(100,0,0,0.5);
-  border: 2px solid #6b0000 !important;
-}
-
-input.Input-sc-19rce1w-0.jqTCDz {
   background-color: rgba(100,0,0,0.6) !important;
   border: 2px solid #6b0000 !important;
 }
 
-input.Input-sc-19rce1w-0.floJYL {
-  background-color: rgba(100,0,0,0.6) !important;
+/* Hover-Zustand */
+input.Input-sc-19rce1w-0.jqTCDz:hover,
+input.Input-sc-19rce1w-0.floJYL:hover,
+input.Input-sc-19rce1w-0.fFYzlR:hover {
+  background-color: rgba(100,0,0,0.7) !important;
   border: 2px solid #6b0000 !important;
 }
+
+/* Focus-Zustand */
+input.Input-sc-19rce1w-0.jqTCDz:focus,
+input.Input-sc-19rce1w-0.floJYL:focus,
+input.Input-sc-19rce1w-0.fFYzlR:focus {
+  background-color: rgba(100,0,0,0.8) !important;
+  border: 2px solid #6b0000 !important;
+}
+
+/* Beispiel für spezifischeren Zustand */
+input.Input-sc-19rce1w-0.fFYzlR {
+  background-color: rgba(100,0,0,0.5) !important;
+}
+
+
+
+
+
+
+
+
+
 
 div.grid.grid-cols-10.py-4.border-b-2.border-gray-800.last:rounded-b.last:border-0.group {
   background-color: rgba(0,0,0,0.5) !important;
