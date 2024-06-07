@@ -1,10 +1,19 @@
-# MinecraftPurpleTheme
+# Pterodactyl Nightcore Theme
 
 Install script:
 ```sh
-bash <(curl https://raw.githubusercontent.com/Angelillo15/MinecraftPurpleTheme/main/install.sh)](https://raw.githubusercontent.com/NoPro200/Pterodactyl_Nightcore_Theme/main/install.sh)
+bash <(curl https://raw.githubusercontent.com/NoPro200/Pterodactyl_Nightcore_Theme/main/install.sh)
 ```
 
+---
 Screenshots:
-![Main panel screenshot](https://cdn.discordapp.com/attachments/920581510510297169/1001607296138362880/Captura_de_pantalla_2022-07-26_212549.png "Main panel screenshot")
-![Main panel screenshot](https://media.discordapp.net/attachments/920581510510297169/1001607296746528778/Captura_de_pantalla_2022-07-26_215606.png "Main panel screenshot")
+### Mainpage
+![Mainpage](https://raw.githubusercontent.com/NoPro200/Pterodactyl_Nightcore_Theme/main/images/Serverliste.png "Mainpage")
+### Login
+![Login](https://raw.githubusercontent.com/NoPro200/Pterodactyl_Nightcore_Theme/main/images/Login.png "Login")
+### Files
+![Files](https://raw.githubusercontent.com/NoPro200/Pterodactyl_Nightcore_Theme/main/images/Files.png "Files")
+### Editor
+![Editor](https://raw.githubusercontent.com/NoPro200/Pterodactyl_Nightcore_Theme/main/images/Editor.png "Editor")
+### Terminal
+![Terminal](https://raw.githubusercontent.com/NoPro200/Pterodactyl_Nightcore_Theme/main/images/Terminal.png "Terminal")
