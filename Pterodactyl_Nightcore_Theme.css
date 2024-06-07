@@ -42,7 +42,7 @@ div.LoginFormContainer___StyledDiv-sc-cyh04c-3 {
   background-color: rgba(0,0,0,0.5) !important;
 }
 
-div.Label-sc-g780ms-0.dqkKHi {
+label.Label-sc-g780ms-0 {
   color: #a0a0a0 !important;
 }
 
@@ -140,7 +140,16 @@ input.Input-sc-19rce1w-0.jqTCDz.cursor-pointer {
   border: 2px solid #6b0000 !important;
 }
 
+input.Input-sc-19rce1w-0.floJYL.cursor-pointer {
+  background-color: rgba(100,0,0,0.6) !important;
+  border: 2px solid #6b0000 !important;
+}
+
 input.Input-sc-19rce1w-0.jqTCDz {
+  background-color: rgba(100,0,0,0.6) !important;
+}
+
+input.Input-sc-19rce1w-0.floJYL {
   background-color: rgba(100,0,0,0.6) !important;
 }
 
