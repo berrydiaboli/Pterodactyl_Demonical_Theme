@@ -146,6 +146,31 @@ input.Input-sc-19rce1w-0.floJYL.cursor-pointer {
   border: 2px solid #6b0000 !important;
 }
 
+input.Input-sc-19rce1w-0.fFYzlR.cursor-pointer {
+  background-color: rgba(100,0,0,0.5);
+  border: 2px solid #6b0000 !important;
+}
+
+input.Input-sc-19rce1w-0.jqTCDz:hover {
+  background-color: rgba(100,0,0,0.6) !important;
+  border: 2px solid #6b0000 !important;
+}
+
+input.Input-sc-19rce1w-0.floJYL:hover {
+  background-color: rgba(100,0,0,0.6) !important;
+  border: 2px solid #6b0000 !important;
+}
+
+input.Input-sc-19rce1w-0.fFYzlR:hover {
+  background-color: rgba(100,0,0,0.5);
+  border: 2px solid #6b0000 !important;
+}
+
+input.Input-sc-19rce1w-0.fFYzlR {
+  background-color: rgba(100,0,0,0.5);
+  border: 2px solid #6b0000 !important;
+}
+
 input.Input-sc-19rce1w-0.jqTCDz {
   background-color: rgba(100,0,0,0.6) !important;
   border: 2px solid #6b0000 !important;
