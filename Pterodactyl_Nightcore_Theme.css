@@ -7,7 +7,9 @@ html {
   background-color: transparent;
 }
 
-::-webkit-scrollbar {width: 10px;}::-webkit-scrollbar-track{background: #36393F;}::-webkit-scrollbar-thumb{background: #727272;border-radius: 10px;}
+::-webkit-scrollbar {width: 10px !important;}
+::-webkit-scrollbar-track{background: #36393F !important;}
+::-webkit-scrollbar-thumb{background: #727272 !important;border-radius: 10px !important;}
 
 a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fRwFrz.DashboardContainer___StyledServerRow-sc-1topkxf-2 {
   background-color: rgba(0,0,0,0.5) !important;
@@ -216,7 +218,7 @@ input.Input-sc-19rce1w-0.floJYL:focus,
 input.Input-sc-19rce1w-0.fFYzlR:focus,
 textarea.Input__Textarea-sc-19rce1w-1.kKFWRA:focus {
   background-color: rgba(61, 0, 1,0.3) !important; 
-  border: 2px solid #470001 !important;
+  border: 3px solid #470001 !important;
   color: #a0a0a0 !important;
 }
 
