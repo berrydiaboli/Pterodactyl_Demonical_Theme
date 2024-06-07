@@ -30,12 +30,30 @@ div.style-module_1n_DiqmT {
 }
 
 div.xterm-viewport {
-  border-radius: 5px !important;
+  border-radius: 2px !important;
   background-color: rgba(0,0,0,0.5) !important;
   scrollbar-color: rgb(143, 0, 0) #f1f1f1 !important; 
   scrollbar-width: thin !important;  
   background: black !important;
+  background-color: rgb(19, 26, 32); scrollbar-color: #7a0000 #000000 !important;
 
+}
+
+div.xterm-viewport::-webkit-scrollbar {
+  border-radius: 4px;
+}
+
+div.xterm-viewport::-webkit-scrollbar-button {
+  display: none;
+}
+
+div.xterm-viewport::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgb(143, 0, 0) #f1f1f1 !important; 
+}
+
+div.xterm-viewport::-webkit-scrollbar-track {
+  background-color: #000000; /* Hintergrundfarbe des Scrollbereichs */
 }
 
 div.style-module_3TDo--Tn {
@@ -305,17 +323,4 @@ div.grid.grid-cols-10.py-4.border-b-2.border-gray-800.last:rounded-b.last:border
 
 .GreyRowBox-sc-1xo9c6v-0 {
   background-color: rgba(0,0,0,0.5) !important;
-}
-
-
-::-webkit-scrollbar-thumb {
-  border-radius: 4px;
-  background-color: #000000; /* Farbe des Scrollbalkens */
-}
-::-webkit-scrollbar {
-  -webkit-appearance: none;
-  width: 8px;
-  height: 8px;
-  border-radius: 4px;
-  background-color: #000000; /* Hintergrundfarbe des Scrollbalkens */
 }
