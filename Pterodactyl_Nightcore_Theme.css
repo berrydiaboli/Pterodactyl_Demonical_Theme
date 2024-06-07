@@ -90,7 +90,10 @@ label.Label-sc-g780ms-0 {
 
 img.LoginFormContainer___StyledImg-sc-cyh04c-5 {
   content:url('https://i.imgur.com/96D5X4d.png') !important;
-  padding: 10px !important;
+  padding-left: 20px !important; 
+  padding-right: 20px !important; 
+  padding-top: 0px !important; 
+  padding-bottom: 0px !important;
 }
 
 div.style-module_1n_DiqmT {
@@ -187,8 +190,8 @@ p.input-help {
 input.Input-sc-19rce1w-0.jqTCDz,
 input.Input-sc-19rce1w-0.floJYL,
 input.Input-sc-19rce1w-0.fFYzlR {
-  background-color: rgba(100,0,0,0.6) !important;
-  border: 2px solid #6b0000 !important;
+  background-color: rgba(61, 0, 1,0.3) !important; 
+  border: 2px solid #470001 !important;
   color: #a0a0a0 !important;
 }
 
@@ -196,8 +199,8 @@ input.Input-sc-19rce1w-0.fFYzlR {
 input.Input-sc-19rce1w-0.jqTCDz:hover,
 input.Input-sc-19rce1w-0.floJYL:hover,
 input.Input-sc-19rce1w-0.fFYzlR:hover {
-  background-color: rgba(100,0,0,0.7) !important;
-  border: 2px solid #6b0000 !important;
+  background-color: rgba(61, 0, 1,0.3) !important; 
+  border: 2px solid #470001 !important;
   color: #a0a0a0 !important;
 }
 
@@ -205,14 +208,15 @@ input.Input-sc-19rce1w-0.fFYzlR:hover {
 input.Input-sc-19rce1w-0.jqTCDz:focus,
 input.Input-sc-19rce1w-0.floJYL:focus,
 input.Input-sc-19rce1w-0.fFYzlR:focus {
-  background-color: rgba(100,0,0,0.8) !important;
-  border: 2px solid #6b0000 !important;
+  background-color: rgba(61, 0, 1,0.3) !important; 
+  border: 2px solid #470001 !important;
   color: #a0a0a0 !important;
 }
 
 /* Beispiel für spezifischeren Zustand */
 input.Input-sc-19rce1w-0.fFYzlR {
-  background-color: rgba(100,0,0,0.5) !important;
+  background-color: rgba(61, 0, 1,0.3) !important;
+  border: 2px solid #470001 !important;
   color: #a0a0a0 !important;
 }
 
