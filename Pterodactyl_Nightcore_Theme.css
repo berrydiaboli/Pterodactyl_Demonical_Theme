@@ -29,13 +29,33 @@ div.style-module_1n_DiqmT {
   padding: 5px !important;
 }
 
+div.Button__ButtonStyle-sc-1qu1gou-0.dLAOsI {
+  background-color: #7a0000 !important; 
+  border: #7a0000 2px solid !important;
+}
+
+div.Label-sc-g780ms-0.eDArzA {
+  background-color: #7a0000; 
+  border: black 2px solid;
+}
+
+div.style-module_4LBM1DKx.style-module_3kBDV_wo {
+  background-color:#7a0000 !important;
+}
+
+div.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_2UCZLAAp {
+  background-color:#7a0000 !important;
+}
+
+
 div.xterm-viewport {
   border-radius: 2px !important;
   background-color: rgba(0,0,0,0.5) !important;
   scrollbar-color: rgb(143, 0, 0) #f1f1f1 !important; 
   scrollbar-width: thin !important;  
   background: black !important;
-  background-color: rgb(19, 26, 32); scrollbar-color: #7a0000 #000000 !important;
+  background-color: rgb(19, 26, 32); 
+  scrollbar-color: #7a0000 #000000 !important;
 
 }
 
@@ -305,8 +325,8 @@ label.PermissionRow__Container-sc-1h899cn-0.icxFlO:hover {
   background-color: rgba(0,0,0,0.5) !important;
 }
 
-div.style-module_1DtraXMW.bg-gray-700 {
-  background-color: rgba(0,0,0,0.5);
+div.bg-gray-700 {
+  background-color:rgba(0,0,0,0.3) !important;
 }
 
 div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP {
