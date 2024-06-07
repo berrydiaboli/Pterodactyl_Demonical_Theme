@@ -38,6 +38,14 @@ div.style-module_3TDo--Tn {
   border-radius: 10px !important;
 }
 
+div.LoginFormContainer___StyledDiv-sc-cyh04c-3 {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.Label-sc-g780ms-0 {
+  color: #a0a0a0 !important;
+}
+
 div.style-module_1n_DiqmT {
   background-color: rgba(0, 0, 0, 0) !important;
 }
@@ -119,12 +127,17 @@ div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ {
   background-color: rgba(0,0,0,0.5) !important;
 }
 
+p.input-help {
+  color: red !important;
+}
+
 input.Input-sc-19rce1w-0.jqTCDz.cursor-pointer {
-  background-color: rgba(0,0,0,0.5) !important;
+  background-color: rgba(100,0,0,0.6) !important;
+  border: 2px solid #6b0000 !important;
 }
 
 input.Input-sc-19rce1w-0.jqTCDz {
-  background-color: rgba(0,0,0,0.5) !important;
+  background-color: rgba(100,0,0,0.6) !important;
 }
 
 div.grid.grid-cols-10.py-4.border-b-2.border-gray-800.last:rounded-b.last:border-0.group {
@@ -229,10 +242,6 @@ label.PermissionRow__Container-sc-1h899cn-0.icxFlO:hover {
 
 div.style-module_1DtraXMW.bg-gray-700 {
   background-color: rgba(0,0,0,0.5);
-}
-
-input.Input-sc-19rce1w-0.jqTCDz {
-  background-color: rgba(0,0,0,0.5) !important;
 }
 
 div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP {
