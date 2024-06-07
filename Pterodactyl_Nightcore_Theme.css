@@ -32,6 +32,10 @@ div.style-module_1n_DiqmT {
 div.xterm-viewport {
   border-radius: 5px !important;
   background-color: rgba(0,0,0,0.5) !important;
+  scrollbar-color: rgb(143, 0, 0) #f1f1f1 !important; 
+  scrollbar-width: thin !important;  
+  background: black !important;
+
 }
 
 div.style-module_3TDo--Tn {
@@ -147,6 +151,7 @@ input.Input-sc-19rce1w-0.floJYL,
 input.Input-sc-19rce1w-0.fFYzlR {
   background-color: rgba(100,0,0,0.6) !important;
   border: 2px solid #6b0000 !important;
+  color: #a0a0a0 !important;
 }
 
 /* Hover-Zustand */
@@ -155,6 +160,7 @@ input.Input-sc-19rce1w-0.floJYL:hover,
 input.Input-sc-19rce1w-0.fFYzlR:hover {
   background-color: rgba(100,0,0,0.7) !important;
   border: 2px solid #6b0000 !important;
+  color: #a0a0a0 !important;
 }
 
 /* Focus-Zustand */
@@ -163,11 +169,13 @@ input.Input-sc-19rce1w-0.floJYL:focus,
 input.Input-sc-19rce1w-0.fFYzlR:focus {
   background-color: rgba(100,0,0,0.8) !important;
   border: 2px solid #6b0000 !important;
+  color: #a0a0a0 !important;
 }
 
 /* Beispiel für spezifischeren Zustand */
 input.Input-sc-19rce1w-0.fFYzlR {
   background-color: rgba(100,0,0,0.5) !important;
+  color: #a0a0a0 !important;
 }
 
 
@@ -297,4 +305,17 @@ div.grid.grid-cols-10.py-4.border-b-2.border-gray-800.last:rounded-b.last:border
 
 .GreyRowBox-sc-1xo9c6v-0 {
   background-color: rgba(0,0,0,0.5) !important;
+}
+
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #000000; /* Farbe des Scrollbalkens */
+}
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #000000; /* Hintergrundfarbe des Scrollbalkens */
 }
