@@ -188,9 +188,23 @@ p.input-help {
 }
 
 
+input.peer.style-module_3TDo--Tn:focus {
+  border-bottom: 2px solid #7a0000;
+  border-radius: 10px;
+}
 
+input.peer.style-module_3TDo--Tn {
+  border-bottom: 0px solid red;
+  border-radius: 10px;
+}
 
+div.style-module_2Vp6MaXq.bg-gray-600 {
+  border-radius: 10px;
+}
 
+div.module_2XbmHEcn.group {
+  border-radius: 10px;
+}
 
 /* Normalzustand */
 input.Input-sc-19rce1w-0.jqTCDz,
@@ -231,7 +245,10 @@ input.Input-sc-19rce1w-0.fFYzlR {
 
 
 
-
+button.Button__ButtonStyle-sc-1qu1gou-0.cDkCmT FileEditContainer___StyledButton2-sc-48rzpu-11.ddQUtE {
+  background-color: #7a0000 !important;
+  border: 2px solid #7a0000 !important;
+}
 
 
 
