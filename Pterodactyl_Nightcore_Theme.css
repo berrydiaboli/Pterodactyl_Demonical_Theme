@@ -365,8 +365,8 @@ label.PermissionRow__Container-sc-1h899cn-0.icxFlO:hover {
 }
 
 div.bg-gray-700 {
-  background-color:rgba(0,0,0,0.3) !important;
-  border: 2px solid #470001 !important;
+  background-color:rgba(0,0,0,0) !important;
+  border: 0px solid #470001 !important;
 }
 
 div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP {

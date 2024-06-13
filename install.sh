@@ -8,42 +8,60 @@ fi
 clear
 
 installTheme(){
+    RED='\033[0;31m'
+    GREEN='\033[0;32m'
+    YELLOW='\033[1;33m'
+    BLUE='\033[0;34m'
+    MAGENTA='\033[0;35m'
+    CYAN='\033[0;36m'
+    RESET='\033[0m'
+
     NODE_VERSION=$(node -v)
     REQUIRED_VERSION="v16.20.2"
     if [ "$NODE_VERSION" != "$REQUIRED_VERSION" ]; then
-        echo "Node.js version is not $REQUIRED_VERSION. version: $NODE_VERSION"
-        echo "Set version to v16.20.2..."
-        sudo npm install -g n
-        sudo n 16
-        node -v
-        npm -v
+        echo -e "${GREEN}Node.js version is not ${YELLOW}${REQUIRED_VERSION}${GREEN}. Version: ${YELLOW}${NODE_VERSION}${RESET}"
+        echo -e "${GREEN}Set version to ${YELLOW}v16.20.2${GREEN}... ${RESET}"
+        sudo npm install -g n > /dev/null
+        sudo n 16 > /dev/null
+        node -v > /dev/null
+        npm -v > /dev/null 
+        echo -e "${GREEN}Now the default version is ${YELLOW}${REQUIRED_VERSION}"
     else
-        echo "Node.js Version is compatible: $NODE_VERSION"
+        echo -e "${GREEN}Node.js Version is compatible: ${YELLOW}${NODE_VERSION} ${RESET}"
     fi
-    apt install sudo -y
-    cd /var/www/
-    tar -cvf Pterodactyl_Nightcore_Themebackup.tar.gz pterodactyl
-    echo "Installing theme..."
-    cd /var/www/pterodactyl
-    rm -r Pterodactyl_Nightcore_Theme
-    git clone https://github.com/NoPro200/Pterodactyl_Nightcore_Theme.git
-    cd Pterodactyl_Nightcore_Theme
-    rm /var/www/pterodactyl/resources/scripts/Pterodactyl_Nightcore_Theme.css
-    rm /var/www/pterodactyl/resources/scripts/index.tsx
-    mv index.tsx /var/www/pterodactyl/resources/scripts/index.tsx
-    mv Pterodactyl_Nightcore_Theme.css /var/www/pterodactyl/resources/scripts/Pterodactyl_Nightcore_Theme.css
-    cd /var/www/pterodactyl
+    echo -e "${GREEN}Installing ${YELLOW}sudo${GREEN} if not installed${RESET}"
+    apt install sudo -y > /dev/null
+    cd /var/www/ > /dev/null
+    echo -e "${GREEN}Unpack the themebackup...${RESET}"
+    tar -cvf Pterodactyl_Nightcore_Themebackup.tar.gz pterodactyl > /dev/null
+    echo -e "${GREEN}Installing theme... ${RESET}"
+    cd /var/www/pterodactyl > /dev/null
+    echo -e "${GREEN}Removing old theme if exist${RESET}"
+    rm -r Pterodactyl_Nightcore_Theme > /dev/null
+    echo -e "${GREEN}Download the Theme${RESET}"
+    git clone https://github.com/NoPro200/Pterodactyl_Nightcore_Theme.git > /dev/null
+    cd Pterodactyl_Nightcore_Theme > /dev/null
+    echo -e "${GREEN}Removing old theme resources if exist${RESET}"
+    rm /var/www/pterodactyl/resources/scripts/Pterodactyl_Nightcore_Theme.css > /dev/null
+    rm /var/www/pterodactyl/resources/scripts/index.tsx > /dev/null
+    echo -e "${GREEN}Moving the new theme files to directory${RESET}"
+    mv index.tsx /var/www/pterodactyl/resources/scripts/index.tsx > /dev/null
+    mv Pterodactyl_Nightcore_Theme.css /var/www/pterodactyl/resources/scripts/Pterodactyl_Nightcore_Theme.css > /dev/null
+    cd /var/www/pterodactyl > /dev/null
 
-    curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-    apt update
-    apt install -y nodejs
+    echo -e "${GREEN}Installing Node.js${RESET}"
+    curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash - > /dev/null
+    apt update > /dev/null
+    apt install -y nodejs > /dev/null
 
-    npm i -g yarn
-    yarn
+    npm i -g yarn > /dev/null
+    yarn > /dev/null
 
-    cd /var/www/pterodactyl
-    yarn build:production
-    sudo php artisan optimize:clear
+    cd /var/www/pterodactyl > /dev/null
+    echo -e "${GREEN}Rebuilding the Panel...${RESET}"
+    yarn build:production > /dev/null
+    echo -e "${GREEN}Optimizing the Panel...${RESET}"
+    sudo php artisan optimize:clear > /dev/null
 
 
 }
@@ -60,18 +78,18 @@ installThemeQuestion(){
 }
 
 repair(){
-    bash <(curl https://raw.githubusercontent.com/NoPro200/Pterodactyl_Nightcore_Theme/main/repair.sh)
+    bash <(curl https://raw.githubusercontent.com/NoPro200/Pterodactyl_Nightcore_Theme/main/repair.sh) > /dev/null
 }
 
 restoreBackUp(){
     echo "Restoring backup..."
-    cd /var/www/
-    tar -xvf Pterodactyl_Nightcore_Themebackup.tar.gz
-    rm Pterodactyl_Nightcore_Themebackup.tar.gz
+    cd /var/www/ > /dev/null
+    tar -xvf Pterodactyl_Nightcore_Themebackup.tar.gz > /dev/null
+    rm Pterodactyl_Nightcore_Themebackup.tar.gz > /dev/null
 
-    cd /var/www/pterodactyl
-    yarn build:production
-    sudo php artisan optimize:clear
+    cd /var/www/pterodactyl > /dev/null
+    yarn build:production > /dev/null
+    sudo php artisan optimize:clear > /dev/null
 }
 echo "Copyright (c) 2024 Angelillo15 and NoPro200"
 echo "This program is free software: you can redistribute it and/or modify"
