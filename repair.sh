@@ -30,7 +30,7 @@ repairPanel(){
 }
 
 while true; do
-    read -p "Are you sure that you want to unninstall the theme [y/n]? " yn
+    read -p "Are you sure that you want to uninstall the theme [y/n]? " yn
     case $yn in
         [Yy]* ) repairPanel; break;;
         [Nn]* ) exit;;
