@@ -8,6 +8,19 @@ fi
 clear
 
 installTheme(){
+    NODE_VERSION=$(node -v)
+    REQUIRED_VERSION="v16.20.2"
+    if [ "$NODE_VERSION" != "$REQUIRED_VERSION" ]; then
+        echo "Node.js version is not $REQUIRED_VERSION. version: $NODE_VERSION"
+        echo "Set version to v16.20.2..."
+        sudo npm install -g n
+        sudo n 16
+        node -v
+        npm -v
+    else
+        echo "Node.js Version is compatible: $NODE_VERSION"
+    fi
+    apt install sudo -y
     cd /var/www/
     tar -cvf Pterodactyl_Nightcore_Themebackup.tar.gz pterodactyl
     echo "Installing theme..."

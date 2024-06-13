@@ -383,3 +383,32 @@ div.grid.grid-cols-10.py-4.border-b-2.border-gray-800.last:rounded-b.last:border
 .GreyRowBox-sc-1xo9c6v-0 {
   background-color: rgba(0,0,0,0.5) !important;
 }
+
+div.TaskDetailsModal___StyledDiv5-sc-1b5dnyw-7.kNHdmD {
+  background-color: rgba(61, 0, 1,0.3) !important; 
+  border: 2px solid #470001 !important;
+  color: #a0a0a0 !important;
+}
+
+select.Select-sc-17exaqp-0.dupyoa {
+  background-color: rgba(61, 0, 1,0.3) !important; 
+  border: 2px solid #470001 !important;
+  color: #a0a0a0 !important;
+}
+
+option {
+  background-color: rgba(61, 0, 1, 1) !important; 
+  border: 2px solid #470001 !important;
+  color: #a0a0a0 !important;
+}
+
+div.style-module_1RnhIT0w {
+  background-color: rgba(61, 0, 1, 1) !important; 
+  color: #a0a0a0 !important; 
+  border-radius: 5px !important; 
+  box-shadow: 0 0 10px #890000 !important;
+}
+
+div.ScheduleEditContainer___StyledDiv3-sc-1fhsmlc-7.bNXcqn {
+  border-bottom: 4px solid #470001 !important;
+}
