@@ -366,6 +366,7 @@ label.PermissionRow__Container-sc-1h899cn-0.icxFlO:hover {
 
 div.bg-gray-700 {
   background-color:rgba(0,0,0,0.3) !important;
+  border: 2px solid #470001 !important;
 }
 
 div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP {
@@ -417,4 +418,11 @@ div.ScheduleTaskRow___StyledDiv-sc-17r38ls-0.ipThkt {
   background-color: rgba(0, 0, 0,1) !important; 
   border: 2px solid #470001 !important;
   color: #a0a0a0 !important;
+}
+
+div.grid-cols-10 {
+  background-color: rgba(0, 0, 0,1) !important; 
+  border: 2px solid #470001 !important;
+  color: #a0a0a0 !important; 
+  margin-bottom: 5px !important;
 }
