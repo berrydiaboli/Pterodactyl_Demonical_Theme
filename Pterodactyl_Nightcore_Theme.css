@@ -412,3 +412,9 @@ div.style-module_1RnhIT0w {
 div.ScheduleEditContainer___StyledDiv3-sc-1fhsmlc-7.bNXcqn {
   border-bottom: 4px solid #470001 !important;
 }
+
+div.ScheduleTaskRow___StyledDiv-sc-17r38ls-0.ipThkt {
+  background-color: rgba(0, 0, 0,1) !important; 
+  border: 2px solid #470001 !important;
+  color: #a0a0a0 !important;
+}
