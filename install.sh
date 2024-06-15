@@ -49,11 +49,6 @@ installTheme(){
     mv Pterodactyl_Nightcore_Theme.css /var/www/pterodactyl/resources/scripts/Pterodactyl_Nightcore_Theme.css > /dev/null 2>&1
     cd /var/www/pterodactyl > /dev/null 2>&1
 
-    echo -e "${GREEN}Installing Node.js${RESET}"
-    curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash - > /dev/null 2>&1
-    apt update > /dev/null 2>&1
-    apt install -y nodejs > /dev/null 2>&1
-
     npm i -g yarn > /dev/null 2>&1
     yarn > /dev/null 2>&1
 
