@@ -48,7 +48,7 @@ installTheme(){
     mv index.tsx /var/www/pterodactyl/resources/scripts/index.tsx > /dev/null 2>&1
     mv Pterodactyl_Nightcore_Theme.css /var/www/pterodactyl/resources/scripts/Pterodactyl_Nightcore_Theme.css > /dev/null 2>&1
     cd /var/www/pterodactyl > /dev/null 2>&1
-
+    apt install npm -y > /dev/null 2>&1
     npm i -g yarn > /dev/null 2>&1
     yarn > /dev/null 2>&1
 
