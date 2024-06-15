@@ -16,19 +16,6 @@ installTheme(){
     CYAN='\033[0;36m'
     RESET='\033[0m'
 
-    NODE_VERSION=$(node -v)
-    REQUIRED_VERSION="v16.20.2"
-    if [ "$NODE_VERSION" != "$REQUIRED_VERSION" ]; then
-        echo -e "${GREEN}Node.js version is not ${YELLOW}${REQUIRED_VERSION}${GREEN}. Version: ${YELLOW}${NODE_VERSION}${RESET}"
-        echo -e "${GREEN}Set version to ${YELLOW}v16.20.2${GREEN}... ${RESET}"
-        sudo npm install -g n > /dev/null 2>&1
-        sudo n 16 > /dev/null 2>&1
-        node -v > /dev/null 2>&1
-        npm -v > /dev/null  2>&1
-        echo -e "${GREEN}Now the default version is ${YELLOW}${REQUIRED_VERSION}"
-    else
-        echo -e "${GREEN}Node.js Version is compatible: ${YELLOW}${NODE_VERSION} ${RESET}"
-    fi
     echo -e "${GREEN}Installing ${YELLOW}sudo${GREEN} if not installed${RESET}"
     apt install sudo -y > /dev/null 2>&1
     cd /var/www/ > /dev/null 2>&1
@@ -48,6 +35,25 @@ installTheme(){
     mv index.tsx /var/www/pterodactyl/resources/scripts/index.tsx > /dev/null 2>&1
     mv Pterodactyl_Nightcore_Theme.css /var/www/pterodactyl/resources/scripts/Pterodactyl_Nightcore_Theme.css > /dev/null 2>&1
     cd /var/www/pterodactyl > /dev/null 2>&1
+    
+    curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+    apt update -y > /dev/null 2>&1
+    apt install nodejs -y > /dev/null 2>&1
+    
+    NODE_VERSION=$(node -v)
+    REQUIRED_VERSION="v16.20.2"
+    if [ "$NODE_VERSION" != "$REQUIRED_VERSION" ]; then
+        echo -e "${GREEN}Node.js version is not ${YELLOW}${REQUIRED_VERSION}${GREEN}. Version: ${YELLOW}${NODE_VERSION}${RESET}"
+        echo -e "${GREEN}Set version to ${YELLOW}v16.20.2${GREEN}... ${RESET}"
+        sudo npm install -g n > /dev/null 2>&1
+        sudo n 16 > /dev/null 2>&1
+        node -v > /dev/null 2>&1
+        npm -v > /dev/null  2>&1
+        echo -e "${GREEN}Now the default version is ${YELLOW}${REQUIRED_VERSION}"
+    else
+        echo -e "${GREEN}Node.js Version is compatible: ${YELLOW}${NODE_VERSION} ${RESET}"
+    fi
+
     apt install npm -y > /dev/null 2>&1
     npm i -g yarn > /dev/null 2>&1
     yarn > /dev/null 2>&1
